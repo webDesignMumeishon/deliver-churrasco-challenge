@@ -1,0 +1,21 @@
+.inputContainer{
+  width: 45%;
+}
+
+.inputContainer > input {
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 5px;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+
+.inputContainer > input:focus {
+  outline: none;
+}
+
+.inputContainer > p {
+  padding: 0.5em 0;
+  font-weight: 700;
+}
+
+
