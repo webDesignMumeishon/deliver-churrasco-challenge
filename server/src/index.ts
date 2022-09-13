@@ -5,8 +5,8 @@ import dotenv from 'dotenv';
 import router from './routes'
 import config from './configs';
 import handleError from './middlewares/error-hanlder'
-
 dotenv.config();
+
 
 const app = express();
 const PORT = process.env.PORT || 4000;
